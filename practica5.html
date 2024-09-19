@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Форма</h1>
+    <form action="">
+ 
+<fieldset>
+ <legend>Контактная информация</legend>
+ <br>
+ <label>Имя<input type="text"></label>
+ <br>
+ <br>
+ <label>Фамилия<input type="text" ></label>
+ <br>
+ <br>
+ <label>Город<input type="text"></label>
+ <br>
+ <br>
+ <div>
+    <label for="Date">Год рождения</label>
+    <select name="Date">
+      <option>Выберите дату рождения</option>
+      <option value="2000">2000</option> 
+      <option value="2001">2001</option> 
+      <option value="2002">2002</option> 
+      <option value="2003">2003</option> 
+      <option value="2004">2004</option> 
+      <option value="2005">2005</option> 
+      <option value="2006">2006</option> 
+      <option value="2007">2007</option> 
+      <option value="2008">2008</option> 
+      <option value="2009">2009</option> 
+      <option value="2010">2010</option> 
+    </select> 
+  </div> 
+
+ <div class="radio">
+    <span>Пол</span>
+    <label>
+      <input type="radio" checked name="sex" value="мужской">мужской
+      <div class="radio-control male"></div>
+    </label>
+    <label>
+      <input type="radio" name="sex" value="женский">женский
+      <div class="radio-control female"></div>
+    </label>
+
+    <textarea name="Информация о заказе" id="story" name="story" rows="5" cols="33" placeholder="Информация о заказе"></textarea>
+    <br>
+    <div>
+        <input type="checkbox" id="scales" name="scales" onclick="return false" checked  />
+        <label for="scales">Я согласен получать рекламу</label>
+      </div>
+    
+      <div>
+        <input type="checkbox" id="horns" name="horns"  />
+        <label for="horns">Я хочу, чтобы мои данные раздавались всем подряд</label>
+      </div>
+    <br> 
+    <button type="submit">Отправить</button> 
+    <button type="reset" value="Очистить">Очистить</button> 
+
+
+
+
+</form>
+</fieldset>
+    
+</body>
+</html>
